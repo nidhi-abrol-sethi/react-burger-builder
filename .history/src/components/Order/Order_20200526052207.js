@@ -1,0 +1,15 @@
+import React from "react";
+import classes from "./Order.css";
+
+const order = props => {
+  return (
+    <div className={classes.Order}>
+      <h1>Ingredients : Salad(1)</h1>
+      <h1>
+        Price :<strong>USD 5.45</strong>
+      </h1>
+    </div>
+  );
+};
+
+export default order;
